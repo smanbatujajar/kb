@@ -2,9 +2,15 @@ const { description } = require('../../package')
 
 module.exports = {
   /**
+   * Ref: https://v1.vuepress.vuejs.org/config/#base
+   */
+  // base: '/',
+
+  /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'Knowledge Base',
+
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -57,12 +63,15 @@ module.exports = {
   },
 
   /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
+   * Apply plugins，ref：https://v1.vuepress.vuejs.org/plugin/
    */
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
   ],
 
+  /**
+   * Ref: https://v1.vuepress.vuejs.org/config/#base
+   */
   dest: 'dist'
 }
