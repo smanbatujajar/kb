@@ -16,4 +16,4 @@ This project is made with [VuePress](https://vuepress.vuejs.org/).
 
 ## Deployment
 
-This project will be deployed automatically to gh-pages branch on push or pull with [GitHub Actions](https://github.com/features/actions) using [deploy.yml](.github/workflows/deploy.yml).
+This project will be deployed automatically to `gh-pages` branch with [GitHub Actions](https://github.com/features/actions) using [deploy.yml](.github/workflows/deploy.yml).
