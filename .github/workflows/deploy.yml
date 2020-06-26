@@ -1,10 +1,14 @@
-name: Build and Deploy
+name: 🚀 Deploy
 
 on:
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+
+defaults:
+  run:
+    shell: bash
 
 jobs:
   deploy:
